@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="timerView" type="id">timerView</item>
+    <item name="startButton" type="id">startButton</item>
+    <item name="locationView" type="id">locationView</item>
+</resources>

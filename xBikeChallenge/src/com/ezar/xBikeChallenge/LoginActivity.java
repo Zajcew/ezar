@@ -29,7 +29,16 @@ public class LoginActivity extends Activity {
             @Override
             public void onUserInfoFetched(GraphUser user) {
                 if (user != null) {
-                    //userName.setText("Hello, " + user.getName());
+                    // create new activity
+                    Intent menu = new Intent(getApplicationContext(), MenuActivity.class);
+                    // send some data to another activity
+                    menu.putExtra("firstname", user.getFirstName());
+                    menu.putExtra("lastname", user.getLastName());
+                    menu.putExtra("id", user.getId());
+                    // start activity
+                    startActivity(menu);
+                    // close this one
+                    finish();
                 } else {
                     //userName.setText("You are not logged");
                 }
