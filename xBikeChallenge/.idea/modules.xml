@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../facebook/facebook.iml" filepath="$PROJECT_DIR$/../facebook/facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/xBikeChallenge.iml" filepath="$PROJECT_DIR$/xBikeChallenge.iml" />
     </modules>
   </component>
